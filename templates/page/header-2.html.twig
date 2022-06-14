@@ -1,0 +1,18 @@
+{# Navbar #}
+{% if page.navigation or page.social or page.branding %}
+  {% block navbar %}
+    {%
+      set navbar_classes = [
+        'navbar header-2 container',
+        theme.settings.navbar_inverse ? 'navbar-inverse' : 'navbar-default',
+        theme.settings.navbar_position ? 'navbar-' ~ theme.settings.navbar_position|clean_class : container,
+      ]
+    %}
+    <header{{ navbar_attributes.addClass(navbar_classes) }} id="navbar" role="banner">
+      <div class="navbar-header">
+        {{ page.branding }}
+        {{ page.navigation }}
+      </div>
+    </header>
+  {% endblock %}
+{% endif %}

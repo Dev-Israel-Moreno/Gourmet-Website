@@ -1,0 +1,460 @@
+/********************* My Masonry Styles *********************/
+
+div.masonry-item div.views-field-title {
+    z-index: 1;
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    background: linear-gradient(180deg,#000000bf,#d2cccc00);
+    width: 100%;
+    padding-top: 12px;
+}
+
+h4, .heading-d{
+    font-size: 1.23em !important;
+    font-weight: inherit !important;
+    margin: 20px !important;
+    text-transform: uppercase !important;
+    line-height: 1.2em !important;
+    color: #fff !important;
+
+}
+
+div.texto_publireportaje h4.entry-title{
+
+    text-align: left !important;
+    text-transform: uppercase !important;
+    color: #373535 !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    margin: 0px !important;
+
+}
+
+.col-md-6.texto_publireportaje {
+    padding: 32px !important;
+}
+
+div.publireportaje_inicio div:first-child {
+
+   padding:0px !important;
+
+}
+
+.col-md-12.publireportaje_inicio {
+    padding-left: 0 !important;
+    padding-right: 0 0 !important;
+    background: #f5f5f5 0 !important;
+    box-shadow: 0px 0px 17px 0.25px rgba(0,0,0,0.5) 0 !important;
+    border: 1px dotted #abc6dd 0 !important;
+}
+
+div.masonry-item div.views-field-title {
+    color: #fff !important;
+    font-size: 20px !important;
+}
+
+.ihe-overlay {
+    display: block;
+    position: relative;
+    z-index: 0;
+    text-align: center;
+}
+
+.ihe-overlay:hover::before {
+    opacity: 0.80 !important;
+}
+
+.ihe-overlay::before {
+    content: ' ' !important;
+    display: block !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    background-color: #2d83a4 !important;
+    opacity: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 5 !important;
+}
+
+.ihe-overlay img {
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+}
+
+.ihe-overlay {
+    text-align: center;
+}
+
+.ihe-overlay--fade-in-down:hover::after {
+    top: 35% !important;
+}
+
+.ihe-overlay::after {
+    content: attr(data-hover) !important;
+    font-size: 1.3em !important;
+    line-height: 1.5em !important;
+    margin-top: -3.5em !important;
+    z-index: 6 !important;
+    text-align: center !important;
+    font-family: arial !important;
+    margin: 10px !important;
+    width: auto !important;
+}
+
+.ihe-overlay::after {
+    content: '+';
+    content: attr(data-hover);
+    font-size: 4em;
+    color: #fff;
+    opacity: 0;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1em;
+    line-height: 1em;
+    margin-top: -0.5em;
+    z-index: 6;
+    text-align: center;
+}
+
+/********************* Seccion Especiales *********************/
+
+.btn-wrapper a {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 7px 42px;
+    line-height: 2;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #337ab7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    background: #297290;
+    border-width: 1px;
+    letter-spacing: 0px;
+    border-radius: 25px;
+    outline: 0 !important;
+    color: #fff;
+    border-color: #e0e0e0;
+    border: 0px;
+}
+
+
+.btn-wrapper a:hover{
+
+    background: #ecbc02 !important;
+
+}
+
+
+.col-md-12.publireportaje_inicio {
+    padding-left: 0;
+    padding-right: 0;
+    background: #e6e6e6;
+    box-shadow: 0px 0px 17px 0.25px rgba(108, 103, 103, 0.5);
+}
+
+.col-md-6.texto_publireportaje {
+    padding: 25px;
+}
+
+/********************* My Styles *********************/
+.fa.fa-google-plus, .fa.fa-twitter, .fa.fa-linkedin, .fa.fa-pinterest-p {
+    display: none;
+}
+.region-header {
+    -webkit-flex-wrap: none;
+    -ms-flex-wrap: none;
+    flex-wrap: none;
+}
+#block-views-block-flashazos-pais-block-1 div.field-content{
+  position: relative;
+  display: flex;
+}
+#block-views-block-flashazos-pais-block-1 div.field-content .colorbox.cboxElement {
+    margin-right: 5px;
+}
+#block-alternadordeidioma ul.links {
+    display: inline-flex;
+}
+#block-alternadordeidioma div.contextual {
+    display: none;
+}
+.es.is-active {
+    margin-right: 10px;
+}
+li.en a, li.es a{
+  color: transparent;
+  display: inline-block;
+  height: 21px;
+  width: 35px;
+}
+li.en a{
+  background: url("../images/ingles.png") no-repeat;
+}
+li.es a{
+  background: url("../images/espannol.png") no-repeat;
+}
+body{
+  background-color: #ffffff !import;
+}
+.header_wrapper {
+    background: #ffffff !import;
+}
+#block-toppanelmessage {
+    display: none;
+}
+.page_wrapper {
+    background-color: #ffffff;
+}
+.enlaces-externos div.col-md-1 {
+    width: 11%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.views-element-container.form-group {
+    margin-right: 10px;
+}
+.col-md-12.publireportaje_inicio {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+}
+.col-md-12.publireportaje_inicio {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+div#block-views-block-hmeroteca-block-2 li {
+    width: auto !important;
+}
+/* slides > li, .flexslider:hover.optionset-post-carousel .slides > li {
+    width: auto !important;
+} */
+div#flexslider-1 div.col-md-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+div.header_wrapper{
+    line-height: 0;
+}
+.footer {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+/* #block-views-block-blog-block-9, #block-views-block-experiencia-block-1*/
+.region.region-before-loop .block {
+    /*width: 50%;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+	margin-top: 30px;
+    margin-bottom: 30px;
+}
+#block-views-block-blog-block-9 {
+    margin-right: 20px;
+}
+#block-views-block-directorio-block-2 h5 {
+    font-size: 45px;
+    text-align: center;
+    color: #12A4C8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.entry-title {
+    color: #12A4C8;
+    font-size: 24px;
+}
+.block-title {
+    color: #002E61;
+    font-size: 24px;
+}
+div.view-display-id-page_3 .attachment.attachment-after {
+    overflow: auto;
+}
+.field--name-field-palabras-claves .field__items {
+    display: flex;
+}
+.field--name-field-palabras-claves .field--item {
+    padding-left: 10px;
+    padding-right: 10px;
+    /*background-color: #12A4C8;
+    border-radius: 5px;*/
+    margin: 0px 5px;
+    padding: 0px 5px;
+    color: #002E61;
+}
+.field--name-field-pais .field--item a,
+.field--name-field-palabras-claves .field--item a {
+    color: #002E61;
+    font-weight: bold;
+}
+.col-md-9.copyrighttexto {
+    text-align: left;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: none;
+}
+#block-views-block-directorio-block-2 .entry-header {
+    margin-top: -35px;
+}
+#block-views-block-bloques-en-destinos-turisticos-block-1 .col-md-3 {
+    width: 24%;
+}
+/* news vista adjunto*/
+.news-small .views-row {
+    overflow: auto;
+    margin-bottom: 15px;
+}
+.news-small .views-field.views-field-field-image {
+    float: left;
+    padding-right: 15px;
+}
+.news-small .views-field.views-field-title a {
+    font-size: 14px;
+    font-weight: bold;
+}
+/* end news vista adjunto*/
+
+/* posicion publicidad */
+.col-md-12.img-posicion {
+    margin-bottom: 15px;
+}
+/* end posicion publicidad */
+div.region-publicidad-content1 .col-md-1.directorio {
+   width: 16%;
+   margin: auto 10px;
+}
+div.region-publicidad-content1 #block-views-block-directorio-block-1,
+div.region-publicidad-content1 #block-views-block-directorio-block-2 {
+ margin-top: 0px;
+}
+.col-md-3.block-region a {
+    color: #fff;
+}
+/* Buscadores expuestos */
+.view-filters.form-group {
+    /* border: #2382b2 solid 2px;*/
+    padding: 10px;
+    margin: 20px auto 35px;
+    /*box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);*/
+}
+.view-filters div.form-item {
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+.control-label {
+    margin-right: 5px;
+}
+/* end Buscadores expuestos */
+
+/* Destinos */
+.col-md-4.blockdestinos_ciudades h5,
+.entry-title {
+    text-align: center;
+}
+.field.field--name-body, .entry-content,
+.views-field.views-field-body {
+    text-align: justify;
+}
+.more-link.form-group {
+    text-align: end;
+}
+.titulo_patrimonios {
+    height: 40px;
+}
+/* end Destinos */
+
+/* Publireportajes */
+.imagenes_publireportaje .field__items {
+    display: flex;
+}
+.imagenes_publireportaje .field--item {
+    margin-right: 10px;
+}
+/* end Publireportajes */
+#block-views-block-gastronomia-block-3 .entry-title {
+    font-size: 16px;
+    height: 25px;
+}
+.col-md-6.img-posicion.banner_ {
+    margin-top: 10px;
+}
+/* Media query section */
+@media (max-width: 480px) {
+    .flexslider .slides img {
+        height: 150px !important;
+    }
+    #block-views-block-directorio-block-2 h5 {
+        font-size: 30px;
+    }
+}
+/* Block Vive Experiencias */
+div.experiencia_blockdest {
+    margin-bottom: 15px;
+}
+div.experiencia_blockdest div.experiencia_imagen img {
+    width: 100%;
+}
+div.experiencia_blockdest div.texto_expericiencia {
+    padding-left: 0px;
+}
+div.experiencia_blockdest div.texto_expericiencia h5 {
+    margin-top: 0px;
+    line-height : 20px;
+}
+/* End Block  */
+.view-bloques-laterales-revista .view-content,
+.fb-page.form-group.fb_iframe_widget,
+.imagen_hemeroteca  {
+    display: flex;
+    justify-content: center;
+}
+#views-exposed-form-hmeroteca-page-3 .form-item {
+    margin: 5px;
+}
+#block-views-block-hmeroteca-block-3 div.view-content ul {
+    display: flex;
+}
+#block-views-block-hmeroteca-block-3 div.view-content ul li {
+    display: block;
+    float: left;
+    padding-right: 10px;
+}
+
+/*gastronomia*/
+.col-md-4.gastronomia_restaurantes {
+    text-align: center;
+}
+
+/* Block Ultimas Noticias */
+div.last_news header.entry-header .entry-title {
+    font-size: 16px !important;
+}
+div.last_news .col-md-7 {
+    padding-left: 0px !important;
+}
+div.last_news .col-md-5 img {
+    width: 100%;
+}
+/* End Block  */
+
+/*Bloque explora*/
+div.view-id-explora_la_region_playas .view-display-id-block_1 div.attachment.attachment-before {
+    height: 230px;
+}
